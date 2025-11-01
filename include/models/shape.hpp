@@ -3,6 +3,7 @@
 
 #include <string>
 #include <utility>
+#include <memory>
 
 class Shape
 {
@@ -42,7 +43,7 @@ public:
     Pos upperLeftCornerPos() const;
     Sizes sizes() const;
     std::string text() const;
-
+    
 private:
     Pos m_upperLeftCornerPos;
     Sizes m_sizes;
