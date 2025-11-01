@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <memory>
+#include <iostream>
 
 #include "slide.hpp"
 
@@ -23,9 +24,9 @@ public:
 
     std::vector<Slide*> slides() const;
 
-    void addSlide(size_t idx, const Shape& shape);
+    void addSlide(size_t idx, const Slide& slide);
     void removeSlide(size_t idx);
-    Shape* getSlide(size_t idx);
+    Slide* getSlide(size_t idx);
 
 private:
     std::vector<std::unique_ptr<Slide>> m_slides;

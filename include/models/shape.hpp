@@ -25,8 +25,8 @@ public:
     );
 
     // copy operations
-    Shape(const Shape& other) = delete;
-    Shape& operator=(const Shape& other) = delete;
+    Shape(const Shape& other);
+    Shape& operator=(const Shape& other);
 
     // move operations
     Shape(Shape&& other) noexcept = delete;
@@ -43,7 +43,7 @@ public:
     Pos upperLeftCornerPos() const;
     Sizes sizes() const;
     std::string text() const;
-    
+
 private:
     Pos m_upperLeftCornerPos;
     Sizes m_sizes;

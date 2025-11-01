@@ -9,6 +9,24 @@ Shape::Shape (
     m_sizes(std::move(sz)),
     m_text(std::move(text)) { } 
 
+Shape::Shape(const Shape& other) :
+    m_upperLeftCornerPos(other.m_upperLeftCornerPos),
+    m_sizes(other.m_sizes),
+    m_text(other.m_text)
+{
+
+}
+
+Shape& Shape::operator=(const Shape& other) {
+    if (this != &other) {
+        m_upperLeftCornerPos = other.m_upperLeftCornerPos;
+        m_sizes = other.m_sizes;
+        m_text = other.m_text;
+    }
+
+    return *this;
+}
+
 void Shape::setUpperLeftCornerPos(const Shape::Pos& pos) { m_upperLeftCornerPos = pos; }
 
 void Shape::setSizes(const Shape::Sizes& sz) { m_sizes = sz; }

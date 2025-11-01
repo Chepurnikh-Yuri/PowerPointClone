@@ -1,6 +1,7 @@
 #ifndef SLIDE_HPP
 #define SLIDE_HPP
 
+#include <iostream>
 #include <vector>
 #include <memory>
 #include <utility>
@@ -14,13 +15,18 @@ public:
     struct Sizes 
     {
         double width, height;
+
+        Sizes(double width = double(), double height = double());
+
+        Sizes(const Sizes& other);
+        Sizes& operator=(const Sizes& other);
     };
 
-    Slide(Size sizes);
+    Slide(Sizes sizes);
 
     // copy operations
-    Slide(const Slide& other) = delete;
-    Slide& operator=(const Slide& other) = delete;
+    Slide(const Slide& other);
+    Slide& operator=(const Slide& other);
     
     // move operations
     Slide(Slide&& other) noexcept = delete;

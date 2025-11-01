@@ -81,12 +81,12 @@ clean: CMakeFiles/power_point_clone.dir/clean
 CMakeFiles/power_point_clone.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_point_clone.dir/build.make CMakeFiles/power_point_clone.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_point_clone.dir/build.make CMakeFiles/power_point_clone.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chepurnikh/Dev/PowerPointClone/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target power_point_clone"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chepurnikh/Dev/PowerPointClone/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target power_point_clone"
 .PHONY : CMakeFiles/power_point_clone.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/power_point_clone.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepurnikh/Dev/PowerPointClone/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepurnikh/Dev/PowerPointClone/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/power_point_clone.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chepurnikh/Dev/PowerPointClone/build/CMakeFiles 0
 .PHONY : CMakeFiles/power_point_clone.dir/rule

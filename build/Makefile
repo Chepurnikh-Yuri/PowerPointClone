@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_point_clone.dir/build.make CMakeFiles/power_point_clone.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/models/presentation.o: src/models/presentation.cpp.o
+.PHONY : src/models/presentation.o
+
+# target to build an object file
+src/models/presentation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_point_clone.dir/build.make CMakeFiles/power_point_clone.dir/src/models/presentation.cpp.o
+.PHONY : src/models/presentation.cpp.o
+
+src/models/presentation.i: src/models/presentation.cpp.i
+.PHONY : src/models/presentation.i
+
+# target to preprocess a source file
+src/models/presentation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_point_clone.dir/build.make CMakeFiles/power_point_clone.dir/src/models/presentation.cpp.i
+.PHONY : src/models/presentation.cpp.i
+
+src/models/presentation.s: src/models/presentation.cpp.s
+.PHONY : src/models/presentation.s
+
+# target to generate assembly for a file
+src/models/presentation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_point_clone.dir/build.make CMakeFiles/power_point_clone.dir/src/models/presentation.cpp.s
+.PHONY : src/models/presentation.cpp.s
+
 src/models/shape.o: src/models/shape.cpp.o
 .PHONY : src/models/shape.o
 
@@ -176,6 +200,30 @@ src/models/shape.s: src/models/shape.cpp.s
 src/models/shape.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_point_clone.dir/build.make CMakeFiles/power_point_clone.dir/src/models/shape.cpp.s
 .PHONY : src/models/shape.cpp.s
+
+src/models/slide.o: src/models/slide.cpp.o
+.PHONY : src/models/slide.o
+
+# target to build an object file
+src/models/slide.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_point_clone.dir/build.make CMakeFiles/power_point_clone.dir/src/models/slide.cpp.o
+.PHONY : src/models/slide.cpp.o
+
+src/models/slide.i: src/models/slide.cpp.i
+.PHONY : src/models/slide.i
+
+# target to preprocess a source file
+src/models/slide.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_point_clone.dir/build.make CMakeFiles/power_point_clone.dir/src/models/slide.cpp.i
+.PHONY : src/models/slide.cpp.i
+
+src/models/slide.s: src/models/slide.cpp.s
+.PHONY : src/models/slide.s
+
+# target to generate assembly for a file
+src/models/slide.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_point_clone.dir/build.make CMakeFiles/power_point_clone.dir/src/models/slide.cpp.s
+.PHONY : src/models/slide.cpp.s
 
 src/parser/command.o: src/parser/command.cpp.o
 .PHONY : src/parser/command.o
@@ -237,9 +285,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/models/presentation.o"
+	@echo "... src/models/presentation.i"
+	@echo "... src/models/presentation.s"
 	@echo "... src/models/shape.o"
 	@echo "... src/models/shape.i"
 	@echo "... src/models/shape.s"
+	@echo "... src/models/slide.o"
+	@echo "... src/models/slide.i"
+	@echo "... src/models/slide.s"
 	@echo "... src/parser/command.o"
 	@echo "... src/parser/command.i"
 	@echo "... src/parser/command.s"
