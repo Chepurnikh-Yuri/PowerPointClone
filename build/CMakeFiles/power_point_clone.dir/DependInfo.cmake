@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/chepurnikh/Dev/PowerPointClone/main.cpp" "CMakeFiles/power_point_clone.dir/main.cpp.o" "gcc" "CMakeFiles/power_point_clone.dir/main.cpp.o.d"
+  "/home/chepurnikh/Dev/PowerPointClone/src/cli_view/cli_view.cpp" "CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.o" "gcc" "CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.o.d"
   "/home/chepurnikh/Dev/PowerPointClone/src/models/presentation.cpp" "CMakeFiles/power_point_clone.dir/src/models/presentation.cpp.o" "gcc" "CMakeFiles/power_point_clone.dir/src/models/presentation.cpp.o.d"
   "/home/chepurnikh/Dev/PowerPointClone/src/models/shape.cpp" "CMakeFiles/power_point_clone.dir/src/models/shape.cpp.o" "gcc" "CMakeFiles/power_point_clone.dir/src/models/shape.cpp.o.d"
   "/home/chepurnikh/Dev/PowerPointClone/src/models/slide.cpp" "CMakeFiles/power_point_clone.dir/src/models/slide.cpp.o" "gcc" "CMakeFiles/power_point_clone.dir/src/models/slide.cpp.o.d"

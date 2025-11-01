@@ -1,5 +1,7 @@
-CMakeFiles/power_point_clone.dir/main.cpp.o: \
- /home/chepurnikh/Dev/PowerPointClone/main.cpp /usr/include/stdc-predef.h \
+CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.o: \
+ /home/chepurnikh/Dev/PowerPointClone/src/cli_view/cli_view.cpp \
+ /usr/include/stdc-predef.h \
+ /home/chepurnikh/Dev/PowerPointClone/include/cli_view/cli_view.hpp \
  /usr/include/c++/15/iostream /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
@@ -150,5 +152,4 @@ CMakeFiles/power_point_clone.dir/main.cpp.o: \
  /usr/include/c++/15/bits/locale_facets.tcc \
  /usr/include/c++/15/bits/basic_ios.tcc \
  /usr/include/c++/15/bits/ostream.tcc /usr/include/c++/15/istream \
- /usr/include/c++/15/bits/istream.tcc \
- /home/chepurnikh/Dev/PowerPointClone/include/cli_view/cli_view.hpp
+ /usr/include/c++/15/bits/istream.tcc

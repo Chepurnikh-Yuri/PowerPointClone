@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_point_clone.dir/build.make CMakeFiles/power_point_clone.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/cli_view/cli_view.o: src/cli_view/cli_view.cpp.o
+.PHONY : src/cli_view/cli_view.o
+
+# target to build an object file
+src/cli_view/cli_view.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_point_clone.dir/build.make CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.o
+.PHONY : src/cli_view/cli_view.cpp.o
+
+src/cli_view/cli_view.i: src/cli_view/cli_view.cpp.i
+.PHONY : src/cli_view/cli_view.i
+
+# target to preprocess a source file
+src/cli_view/cli_view.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_point_clone.dir/build.make CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.i
+.PHONY : src/cli_view/cli_view.cpp.i
+
+src/cli_view/cli_view.s: src/cli_view/cli_view.cpp.s
+.PHONY : src/cli_view/cli_view.s
+
+# target to generate assembly for a file
+src/cli_view/cli_view.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_point_clone.dir/build.make CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.s
+.PHONY : src/cli_view/cli_view.cpp.s
+
 src/models/presentation.o: src/models/presentation.cpp.o
 .PHONY : src/models/presentation.o
 
@@ -285,6 +309,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/cli_view/cli_view.o"
+	@echo "... src/cli_view/cli_view.i"
+	@echo "... src/cli_view/cli_view.s"
 	@echo "... src/models/presentation.o"
 	@echo "... src/models/presentation.i"
 	@echo "... src/models/presentation.s"

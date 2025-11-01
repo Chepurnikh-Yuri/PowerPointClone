@@ -83,10 +83,24 @@ CMakeFiles/power_point_clone.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/power_point_clone.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chepurnikh/Dev/PowerPointClone/main.cpp -o CMakeFiles/power_point_clone.dir/main.cpp.s
 
+CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.o: CMakeFiles/power_point_clone.dir/flags.make
+CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.o: /home/chepurnikh/Dev/PowerPointClone/src/cli_view/cli_view.cpp
+CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.o: CMakeFiles/power_point_clone.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chepurnikh/Dev/PowerPointClone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.o -MF CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.o.d -o CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.o -c /home/chepurnikh/Dev/PowerPointClone/src/cli_view/cli_view.cpp
+
+CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chepurnikh/Dev/PowerPointClone/src/cli_view/cli_view.cpp > CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.i
+
+CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chepurnikh/Dev/PowerPointClone/src/cli_view/cli_view.cpp -o CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.s
+
 CMakeFiles/power_point_clone.dir/src/models/presentation.cpp.o: CMakeFiles/power_point_clone.dir/flags.make
 CMakeFiles/power_point_clone.dir/src/models/presentation.cpp.o: /home/chepurnikh/Dev/PowerPointClone/src/models/presentation.cpp
 CMakeFiles/power_point_clone.dir/src/models/presentation.cpp.o: CMakeFiles/power_point_clone.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chepurnikh/Dev/PowerPointClone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/power_point_clone.dir/src/models/presentation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chepurnikh/Dev/PowerPointClone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/power_point_clone.dir/src/models/presentation.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/power_point_clone.dir/src/models/presentation.cpp.o -MF CMakeFiles/power_point_clone.dir/src/models/presentation.cpp.o.d -o CMakeFiles/power_point_clone.dir/src/models/presentation.cpp.o -c /home/chepurnikh/Dev/PowerPointClone/src/models/presentation.cpp
 
 CMakeFiles/power_point_clone.dir/src/models/presentation.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/power_point_clone.dir/src/models/presentation.cpp.s: cmake_force
 CMakeFiles/power_point_clone.dir/src/models/shape.cpp.o: CMakeFiles/power_point_clone.dir/flags.make
 CMakeFiles/power_point_clone.dir/src/models/shape.cpp.o: /home/chepurnikh/Dev/PowerPointClone/src/models/shape.cpp
 CMakeFiles/power_point_clone.dir/src/models/shape.cpp.o: CMakeFiles/power_point_clone.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chepurnikh/Dev/PowerPointClone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/power_point_clone.dir/src/models/shape.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chepurnikh/Dev/PowerPointClone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/power_point_clone.dir/src/models/shape.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/power_point_clone.dir/src/models/shape.cpp.o -MF CMakeFiles/power_point_clone.dir/src/models/shape.cpp.o.d -o CMakeFiles/power_point_clone.dir/src/models/shape.cpp.o -c /home/chepurnikh/Dev/PowerPointClone/src/models/shape.cpp
 
 CMakeFiles/power_point_clone.dir/src/models/shape.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/power_point_clone.dir/src/models/shape.cpp.s: cmake_force
 CMakeFiles/power_point_clone.dir/src/models/slide.cpp.o: CMakeFiles/power_point_clone.dir/flags.make
 CMakeFiles/power_point_clone.dir/src/models/slide.cpp.o: /home/chepurnikh/Dev/PowerPointClone/src/models/slide.cpp
 CMakeFiles/power_point_clone.dir/src/models/slide.cpp.o: CMakeFiles/power_point_clone.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chepurnikh/Dev/PowerPointClone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/power_point_clone.dir/src/models/slide.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chepurnikh/Dev/PowerPointClone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/power_point_clone.dir/src/models/slide.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/power_point_clone.dir/src/models/slide.cpp.o -MF CMakeFiles/power_point_clone.dir/src/models/slide.cpp.o.d -o CMakeFiles/power_point_clone.dir/src/models/slide.cpp.o -c /home/chepurnikh/Dev/PowerPointClone/src/models/slide.cpp
 
 CMakeFiles/power_point_clone.dir/src/models/slide.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/power_point_clone.dir/src/models/slide.cpp.s: cmake_force
 CMakeFiles/power_point_clone.dir/src/parser/command.cpp.o: CMakeFiles/power_point_clone.dir/flags.make
 CMakeFiles/power_point_clone.dir/src/parser/command.cpp.o: /home/chepurnikh/Dev/PowerPointClone/src/parser/command.cpp
 CMakeFiles/power_point_clone.dir/src/parser/command.cpp.o: CMakeFiles/power_point_clone.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chepurnikh/Dev/PowerPointClone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/power_point_clone.dir/src/parser/command.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chepurnikh/Dev/PowerPointClone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/power_point_clone.dir/src/parser/command.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/power_point_clone.dir/src/parser/command.cpp.o -MF CMakeFiles/power_point_clone.dir/src/parser/command.cpp.o.d -o CMakeFiles/power_point_clone.dir/src/parser/command.cpp.o -c /home/chepurnikh/Dev/PowerPointClone/src/parser/command.cpp
 
 CMakeFiles/power_point_clone.dir/src/parser/command.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/power_point_clone.dir/src/parser/command.cpp.s: cmake_force
 CMakeFiles/power_point_clone.dir/src/parser/validation.cpp.o: CMakeFiles/power_point_clone.dir/flags.make
 CMakeFiles/power_point_clone.dir/src/parser/validation.cpp.o: /home/chepurnikh/Dev/PowerPointClone/src/parser/validation.cpp
 CMakeFiles/power_point_clone.dir/src/parser/validation.cpp.o: CMakeFiles/power_point_clone.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chepurnikh/Dev/PowerPointClone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/power_point_clone.dir/src/parser/validation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chepurnikh/Dev/PowerPointClone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/power_point_clone.dir/src/parser/validation.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/power_point_clone.dir/src/parser/validation.cpp.o -MF CMakeFiles/power_point_clone.dir/src/parser/validation.cpp.o.d -o CMakeFiles/power_point_clone.dir/src/parser/validation.cpp.o -c /home/chepurnikh/Dev/PowerPointClone/src/parser/validation.cpp
 
 CMakeFiles/power_point_clone.dir/src/parser/validation.cpp.i: cmake_force
@@ -156,6 +170,7 @@ CMakeFiles/power_point_clone.dir/src/parser/validation.cpp.s: cmake_force
 # Object files for target power_point_clone
 power_point_clone_OBJECTS = \
 "CMakeFiles/power_point_clone.dir/main.cpp.o" \
+"CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.o" \
 "CMakeFiles/power_point_clone.dir/src/models/presentation.cpp.o" \
 "CMakeFiles/power_point_clone.dir/src/models/shape.cpp.o" \
 "CMakeFiles/power_point_clone.dir/src/models/slide.cpp.o" \
@@ -166,6 +181,7 @@ power_point_clone_OBJECTS = \
 power_point_clone_EXTERNAL_OBJECTS =
 
 power_point_clone: CMakeFiles/power_point_clone.dir/main.cpp.o
+power_point_clone: CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.o
 power_point_clone: CMakeFiles/power_point_clone.dir/src/models/presentation.cpp.o
 power_point_clone: CMakeFiles/power_point_clone.dir/src/models/shape.cpp.o
 power_point_clone: CMakeFiles/power_point_clone.dir/src/models/slide.cpp.o
@@ -173,7 +189,7 @@ power_point_clone: CMakeFiles/power_point_clone.dir/src/parser/command.cpp.o
 power_point_clone: CMakeFiles/power_point_clone.dir/src/parser/validation.cpp.o
 power_point_clone: CMakeFiles/power_point_clone.dir/build.make
 power_point_clone: CMakeFiles/power_point_clone.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/chepurnikh/Dev/PowerPointClone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable power_point_clone"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/chepurnikh/Dev/PowerPointClone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable power_point_clone"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/power_point_clone.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
