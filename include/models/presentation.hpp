@@ -24,7 +24,8 @@ public:
 
     std::vector<Slide*> slides() const;
 
-    void addSlide(size_t idx, const Slide& slide);
+    void showSlide(size_t idx);
+    void addSlide(size_t idx);
     void removeSlide(size_t idx);
     Slide* getSlide(size_t idx);
 

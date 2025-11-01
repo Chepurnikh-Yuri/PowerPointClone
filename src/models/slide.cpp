@@ -43,22 +43,22 @@ std::vector<Shape*> Slide::shapes() const {
     return shapes; 
 }
 
-void Slide::addShape(size_t idx, const Shape& shape) {
-    if (idx > m_shapes.size())
-        return;
+void Slide::addShape(size_t idx) {
+    // if (idx > m_shapes.size())
+    //     return;
 
-    try {
-        auto it = m_shapes.begin() + idx;
-        m_shapes.insert(it, std::make_unique<Shape>(shape));
-    }
-    catch(const std::bad_alloc& e)
-    {
-        std::cerr << "Error: Memory allocation failed " << e.what() << std::endl;
-    }
-    catch(const std::exception& e)
-    {
-        std::cerr << "Error: " << e.what() << std::endl;
-    }
+    // try {
+    //     auto it = m_shapes.begin() + idx;
+    //     m_shapes.insert(it, std::make_unique<Shape>());
+    // }
+    // catch(const std::bad_alloc& e)
+    // {
+    //     std::cerr << "Error: Memory allocation failed " << e.what() << std::endl;
+    // }
+    // catch(const std::exception& e)
+    // {
+    //     std::cerr << "Error: " << e.what() << std::endl;
+    // }
 }
 
 void Slide::removeShape(size_t idx) {

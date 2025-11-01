@@ -43,7 +43,7 @@ ValidationResult CommandNameValidator::validate(const std::vector<std::string>& 
     assert(idx < cmd.size() && "The index out of range");
 
     std::vector<std::string> names = {
-        "presentation", "slide", "export"
+        "presentation", "slide", "shape"
     };
 
     for (const auto& name : names) {
@@ -61,7 +61,7 @@ ValidationResult SubCommandNameValidator::validate(const std::vector<std::string
     assert(idx < cmd.size() && "The idx out of range");
 
     std::vector<std::string> subnames = {
-        "add", "delete", "list"
+        "create", "add", "remove", "show"
     };
 
     for (const auto& name : subnames) {

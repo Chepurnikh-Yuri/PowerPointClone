@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/chepurnikh/Dev/PowerPointClone/main.cpp" "CMakeFiles/power_point_clone.dir/main.cpp.o" "gcc" "CMakeFiles/power_point_clone.dir/main.cpp.o.d"
+  "/home/chepurnikh/Dev/PowerPointClone/src/cli_controller/commands.cpp" "CMakeFiles/power_point_clone.dir/src/cli_controller/commands.cpp.o" "gcc" "CMakeFiles/power_point_clone.dir/src/cli_controller/commands.cpp.o.d"
+  "/home/chepurnikh/Dev/PowerPointClone/src/cli_controller/controller.cpp" "CMakeFiles/power_point_clone.dir/src/cli_controller/controller.cpp.o" "gcc" "CMakeFiles/power_point_clone.dir/src/cli_controller/controller.cpp.o.d"
   "/home/chepurnikh/Dev/PowerPointClone/src/cli_view/cli_view.cpp" "CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.o" "gcc" "CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.o.d"
   "/home/chepurnikh/Dev/PowerPointClone/src/models/presentation.cpp" "CMakeFiles/power_point_clone.dir/src/models/presentation.cpp.o" "gcc" "CMakeFiles/power_point_clone.dir/src/models/presentation.cpp.o.d"
   "/home/chepurnikh/Dev/PowerPointClone/src/models/shape.cpp" "CMakeFiles/power_point_clone.dir/src/models/shape.cpp.o" "gcc" "CMakeFiles/power_point_clone.dir/src/models/shape.cpp.o.d"

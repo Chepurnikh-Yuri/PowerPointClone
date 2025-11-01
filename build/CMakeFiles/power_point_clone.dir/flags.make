@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/chepurnikh/Dev/PowerPointClone/include -I/home/chepurnikh/Dev/PowerPointClone/include/parser -I/home/chepurnikh/Dev/PowerPointClone/include/models -I/home/chepurnikh/Dev/PowerPointClone/include/cli_view
+CXX_INCLUDES = -I/home/chepurnikh/Dev/PowerPointClone/include -I/home/chepurnikh/Dev/PowerPointClone/include/parser -I/home/chepurnikh/Dev/PowerPointClone/include/models -I/home/chepurnikh/Dev/PowerPointClone/include/cli_view -I/home/chepurnikh/Dev/PowerPointClone/include/cli_controller
 
 CXX_FLAGS = -std=gnu++17
 

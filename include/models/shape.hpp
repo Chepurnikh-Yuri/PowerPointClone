@@ -19,6 +19,7 @@ public:
     };
 
     Shape (
+        size_t id,
         const Pos& p,
         const Sizes& sz,
         const std::string& text = std::string()
@@ -45,6 +46,7 @@ public:
     std::string text() const;
 
 private:
+    size_t m_id;
     Pos m_upperLeftCornerPos;
     Sizes m_sizes;
     std::string m_text;

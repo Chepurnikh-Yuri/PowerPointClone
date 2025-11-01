@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/power_point_clone.dir/main.cpp.o"
   "CMakeFiles/power_point_clone.dir/main.cpp.o.d"
+  "CMakeFiles/power_point_clone.dir/src/cli_controller/commands.cpp.o"
+  "CMakeFiles/power_point_clone.dir/src/cli_controller/commands.cpp.o.d"
+  "CMakeFiles/power_point_clone.dir/src/cli_controller/controller.cpp.o"
+  "CMakeFiles/power_point_clone.dir/src/cli_controller/controller.cpp.o.d"
   "CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.o"
   "CMakeFiles/power_point_clone.dir/src/cli_view/cli_view.cpp.o.d"
   "CMakeFiles/power_point_clone.dir/src/models/presentation.cpp.o"

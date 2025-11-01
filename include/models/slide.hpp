@@ -38,7 +38,7 @@ public:
     Sizes sizes() const;
     std::vector<Shape*> shapes() const;
 
-    void addShape(size_t idx, const Shape& shape);
+    void addShape(size_t idx);
     void removeShape(size_t idx);
     Shape* getShape(size_t idx);
 

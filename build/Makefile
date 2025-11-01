@@ -153,6 +153,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_point_clone.dir/build.make CMakeFiles/power_point_clone.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/cli_controller/commands.o: src/cli_controller/commands.cpp.o
+.PHONY : src/cli_controller/commands.o
+
+# target to build an object file
+src/cli_controller/commands.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_point_clone.dir/build.make CMakeFiles/power_point_clone.dir/src/cli_controller/commands.cpp.o
+.PHONY : src/cli_controller/commands.cpp.o
+
+src/cli_controller/commands.i: src/cli_controller/commands.cpp.i
+.PHONY : src/cli_controller/commands.i
+
+# target to preprocess a source file
+src/cli_controller/commands.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_point_clone.dir/build.make CMakeFiles/power_point_clone.dir/src/cli_controller/commands.cpp.i
+.PHONY : src/cli_controller/commands.cpp.i
+
+src/cli_controller/commands.s: src/cli_controller/commands.cpp.s
+.PHONY : src/cli_controller/commands.s
+
+# target to generate assembly for a file
+src/cli_controller/commands.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_point_clone.dir/build.make CMakeFiles/power_point_clone.dir/src/cli_controller/commands.cpp.s
+.PHONY : src/cli_controller/commands.cpp.s
+
+src/cli_controller/controller.o: src/cli_controller/controller.cpp.o
+.PHONY : src/cli_controller/controller.o
+
+# target to build an object file
+src/cli_controller/controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_point_clone.dir/build.make CMakeFiles/power_point_clone.dir/src/cli_controller/controller.cpp.o
+.PHONY : src/cli_controller/controller.cpp.o
+
+src/cli_controller/controller.i: src/cli_controller/controller.cpp.i
+.PHONY : src/cli_controller/controller.i
+
+# target to preprocess a source file
+src/cli_controller/controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_point_clone.dir/build.make CMakeFiles/power_point_clone.dir/src/cli_controller/controller.cpp.i
+.PHONY : src/cli_controller/controller.cpp.i
+
+src/cli_controller/controller.s: src/cli_controller/controller.cpp.s
+.PHONY : src/cli_controller/controller.s
+
+# target to generate assembly for a file
+src/cli_controller/controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_point_clone.dir/build.make CMakeFiles/power_point_clone.dir/src/cli_controller/controller.cpp.s
+.PHONY : src/cli_controller/controller.cpp.s
+
 src/cli_view/cli_view.o: src/cli_view/cli_view.cpp.o
 .PHONY : src/cli_view/cli_view.o
 
@@ -309,6 +357,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/cli_controller/commands.o"
+	@echo "... src/cli_controller/commands.i"
+	@echo "... src/cli_controller/commands.s"
+	@echo "... src/cli_controller/controller.o"
+	@echo "... src/cli_controller/controller.i"
+	@echo "... src/cli_controller/controller.s"
 	@echo "... src/cli_view/cli_view.o"
 	@echo "... src/cli_view/cli_view.i"
 	@echo "... src/cli_view/cli_view.s"

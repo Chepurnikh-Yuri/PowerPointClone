@@ -1,10 +1,12 @@
 #include "shape.hpp"
 
 Shape::Shape (
+    size_t id,
     const Shape::Pos& p,
     const Shape::Sizes& sz,
     const std::string& text
 ) :
+    m_id(id),
     m_upperLeftCornerPos(std::move(p)),
     m_sizes(std::move(sz)),
     m_text(std::move(text)) { } 

@@ -16,4 +16,5 @@ target_include_directories(power_point_clone PUBLIC
     ${PROJECT_SOURCE_DIR}/include/parser
     ${PROJECT_SOURCE_DIR}/include/models
     ${PROJECT_SOURCE_DIR}/include/cli_view
+    ${PROJECT_SOURCE_DIR}/include/cli_controller
 )

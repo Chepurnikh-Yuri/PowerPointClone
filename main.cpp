@@ -1,10 +1,13 @@
-#include <iostream>
 #include "cli_view.hpp"
+#include "presentation.hpp"
+#include "controller.hpp"
+#include "command.hpp"
 
 int main()
 {
+    auto presentation = std::make_shared<Presentation>();
     CLIView view;
-    std::string cmd = view();
+    CLIController controller(presentation, view);
 
-    std::cout << "The entered command is: " << cmd;
+    controller.run();
 }
