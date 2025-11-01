@@ -1,0 +1,3 @@
+/home/chepurnikh/Dev/PowerPointClone/build/CMakeFiles/power_point_clone.dir
+/home/chepurnikh/Dev/PowerPointClone/build/CMakeFiles/edit_cache.dir
+/home/chepurnikh/Dev/PowerPointClone/build/CMakeFiles/rebuild_cache.dir
